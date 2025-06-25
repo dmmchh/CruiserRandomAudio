@@ -1,0 +1,112 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\LethalCompanyTemplate\\CruiserRandomAudio\\CruiserRandomAudio.csproj": {}
+  },
+  "projects": {
+    "E:\\LethalCompanyTemplate\\CruiserRandomAudio\\CruiserRandomAudio.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\LethalCompanyTemplate\\CruiserRandomAudio\\CruiserRandomAudio.csproj",
+        "projectName": "CruiserRandomAudio",
+        "projectPath": "E:\\LethalCompanyTemplate\\CruiserRandomAudio\\CruiserRandomAudio.csproj",
+        "packagesPath": "C:\\Users\\zapthe\\.nuget\\packages\\",
+        "outputPath": "E:\\LethalCompanyTemplate\\CruiserRandomAudio\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zapthe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.bepinex.dev/v3/index.json": {},
+          "https://nuget.samboy.dev/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "3Dash.GameLibs": {
+              "target": "Package",
+              "version": "[*-*, )"
+            },
+            "BepInEx.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.*, )"
+            },
+            "BepInEx.AssemblyPublicizer.MSBuild": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[0.4.1, )"
+            },
+            "BepInEx.Core": {
+              "target": "Package",
+              "version": "[5.*, )"
+            },
+            "BepInEx.PluginInfoProps": {
+              "target": "Package",
+              "version": "[2.*, )"
+            },
+            "BepInEx.Templates": {
+              "target": "Package",
+              "version": "[*-*, )"
+            },
+            "LethalCompany.GameLibs.Steam": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[*-*, )"
+            },
+            "UnityEngine.Modules": {
+              "include": "Compile",
+              "target": "Package",
+              "version": "[2022.3.9.15351836, )"
+            },
+            "Xilophor.LethalNetworkAPI": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.407\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
